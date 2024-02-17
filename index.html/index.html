@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Name</title>
+        <!--y增加static靜態資料及，增加static靜態資料及，新增style.css盪案-->
+        <link 
+        rel="stylesheet"
+        href="{{url_for('static',filename='style.css')}}"
+
+        <!--此程式會產生<link rel="stylesheet" href="/static/style.css />-->
+    </head>
+    <body>
+        <!--加入{{name}}-->
+        <h1>Name: {{name}}</h1>
+    </body>
+</html>
